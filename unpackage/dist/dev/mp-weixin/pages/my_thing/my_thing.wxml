@@ -1,0 +1,1 @@
+<view class="newsList"><block wx:for="{{newsList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="newsListItem"><view class="left"><image src="item.img_url" mode></image></view><view class="right"><view>{{''+item.title+''}}</view><view><text>{{"发表时间 "+item.add_time}}</text><text>{{"浏览 "+item.click}}</text></view></view></view></block></view>

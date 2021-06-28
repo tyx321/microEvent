@@ -1,0 +1,1 @@
+<view class="newsList"><news-list vue-id="43c5bb80-1" newsList="{{newsList}}" data-event-opts="{{[['^newsItemHander',[['navigateHander']]]]}}" bind:newsItemHander="__e" bind:__l="__l"></news-list><view data-event-opts="{{[['tap',[['navigateHander',[5]]]]]}}" bindtap="__e">你好</view></view>

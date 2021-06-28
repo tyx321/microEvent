@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/do_thing/do_thing",
+    "pages/find_thing/find_thing",
+    "pages/record_thing/record_thing",
+    "pages/discuss_thing/discuss_thing",
+    "pages/my_thing/my_thing",
+    "pages/recommend/recommend",
+    "pages/my/my",
+    "pages/picture/picture",
+    "pages/video/video",
+    "pages/news-detail/news-detail",
+    "pages/goods-detail/goods-detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "微事记",
+    "navigationBarBackgroundColor": "#87CEFF",
+    "backgroundColor": "#87CEFF"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "处事",
+        "pagePath": "pages/do_thing/do_thing",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-active.png"
+      },
+      {
+        "text": "寻事",
+        "pagePath": "pages/find_thing/find_thing",
+        "iconPath": "static/icon/search.png",
+        "selectedIconPath": "static/icon/search-active.png"
+      },
+      {
+        "text": "记事",
+        "pagePath": "pages/record_thing/record_thing",
+        "iconPath": "./static/icon/cart.png",
+        "selectedIconPath": "static/icon/cart-active.png"
+      },
+      {
+        "text": "论事",
+        "pagePath": "pages/discuss_thing/discuss_thing",
+        "iconPath": "static/icon/news.png",
+        "selectedIconPath": "static/icon/news-active.png"
+      },
+      {
+        "text": "忆事",
+        "pagePath": "pages/my_thing/my_thing",
+        "iconPath": "static/icon/member.png",
+        "selectedIconPath": "static/icon/member-active.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "使用了地图api"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

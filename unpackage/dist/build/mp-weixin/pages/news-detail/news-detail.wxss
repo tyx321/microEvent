@@ -1,0 +1,1 @@
+.title{font-size:30rpx;text-align:center;margin:20rpx auto;font-weight:700}.demo{display:-webkit-box;display:-webkit-flex;display:flex;font-size:20rpx;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between}.content{font-size:25rpx;margin-top:30rpx}
